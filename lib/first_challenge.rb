@@ -16,17 +16,14 @@ def first_challenge
   #your code here
 
 contacts.each do |person, data|
-data.each do |data, attrib|
-      if attrib == :favorite_icecream_flavors
-      data.each do |fav|
-      flav.delete_if("strawberry")
-   
-  end
-  end
-end
+  data.each do |attrib, value|
+    if attrib == :favorite_icecream_flavors
+      attrib.each do |value|
+        value.delete_if("strawberry")
+      end
+    end
   
 end
-  #remember to return your newly altered contacts hash!
-  contacts
+
 end
 
