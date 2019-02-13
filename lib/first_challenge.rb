@@ -21,6 +21,7 @@ contacts.each do |person, data|
       attrib.each do |value|
         value.delete_if("strawberry")
       end
+      end
     end
   
 end
