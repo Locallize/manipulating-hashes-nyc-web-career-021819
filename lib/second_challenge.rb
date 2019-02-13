@@ -7,7 +7,8 @@ def second_challenge
   }
 
   #code your solution here!
-
-  
+  crush = []
+crush << groceries.values
+  crush.flatten
 
 end
